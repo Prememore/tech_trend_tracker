@@ -1,0 +1,17 @@
+22:58:53 | INFO     | ============================================================
+22:58:53 | INFO     | ⏰ 启动技术趋势自动更新
+22:58:53 | INFO     | ============================================================
+22:58:53 | INFO     | ✅ 配置加载成功 | 搜索范围: 最近 7 天
+22:58:53 | ERROR    | ❌ 采集器初始化失败: cannot import name 'TrendCollector' from 'core.collector' (/Users/ym_mac/chx/tools_demo/tech_trend_tracker/core/collector.py)
+22:59:52 | INFO     | ============================================================
+22:59:52 | INFO     | ⏰ 启动技术趋势自动更新
+22:59:52 | INFO     | ============================================================
+22:59:52 | INFO     | ✅ 配置加载成功 | 搜索范围: 最近 7 天
+22:59:52 | ERROR    | ❌ 采集器初始化失败: cannot import name 'TrendCollector' from 'core.collector' (/Users/ym_mac/chx/tools_demo/tech_trend_tracker/core/collector.py)
+23:01:41 | INFO     | ============================================================
+23:01:41 | INFO     | ⏰ 启动技术趋势自动更新
+23:01:41 | INFO     | ============================================================
+23:01:41 | INFO     | ✅ 配置加载成功 | 搜索范围: 最近 7 天
+23:01:41 | INFO     | 📡 开始抓取 arXiv 文献（HTTPS API）...
+23:01:41 | ERROR    | ❌ 抓取失败: 'ArxivCollector' object has no attribute 'fetch_rss'
+23:01:41 | INFO     | 💡 建议: 检查网络连接或尝试更换镜像源（见 config/sources.yaml）

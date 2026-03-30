@@ -1,0 +1,22 @@
+# 技术趋势追踪器 - 快速开始
+
+## 安装路径
+/Users/ym_mac/chx/tools_demo/tech_trend_tracker
+
+## 首次使用
+1. 激活虚拟环境:
+   source .venv/bin/activate
+
+2. 首次更新数据:
+   python run_daily.py
+
+3. 启动交互界面（查看摘要）:
+   python main.py
+
+## 日常使用
+• 查看今日趋势:       python main.py
+• 手动更新数据:       python run_daily.py
+• 清理旧数据（保留30天）: python cli/cleanup.py --days 30
+
+## 详细命令参考
+查看 COMMANDS.txt 获取完整命令手册

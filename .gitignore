@@ -1,0 +1,44 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Data files
+data/trends.db
+data/*.db-journal
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# Build
+build/
+dist/

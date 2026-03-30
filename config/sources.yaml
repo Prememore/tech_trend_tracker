@@ -1,0 +1,31 @@
+# 技术趋势追踪器 - arXiv API 配置
+settings:
+  search_days: 30         # ← 抓取时间范围（检索当天往前N天的文献）
+  arxiv_api_url: "https://arxiv.org/api/query"  # HTTPS 清华镜像源
+  match_scope: "title"  # ← 可选: "title" / "summary" / "both"
+  relevance_threshold: 0.3  # ← 关键：调低至 0.30（原为 0.45）
+  # 时间范围配置说明：
+  # search_days: 1    # 仅今天
+  # search_days: 7    # 最近一周（默认）
+  # search_days: 30   # 最近一个月
+  # search_days: 90   # 最近三个月
+  # search_days: 365  # 最近一年
+
+keywords:
+  primary:
+    # 强化学习核心
+    - "reinforcement learning"
+    - "deep reinforcement learning"
+    - "ppo"
+    - "sac"
+    - "ddpg"
+    - "td3"
+    
+    # 混沌同步控制（你的核心方向）
+    - "chaos synchronization"
+    - "chaotic synchronization"
+    - "chaos control"
+  
+  secondary:
+    - "multiagent"
+    - "robotic"
